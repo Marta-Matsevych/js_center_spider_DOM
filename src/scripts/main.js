@@ -3,6 +3,8 @@
 const wall = document.querySelector('.wall');
 const spider = document.querySelector('.spider');
 
+wall.style.position = 'relative';
+
 const wallWidth = wall.offsetWidth;
 const wallHeight = wall.offsetHeight;
 const spiderWidth = spider.offsetWidth;
